@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container-fluid {
+  margin-top: 5.4rem;
+}
+
+.navbar {
+  background-color: #18181b;
+}
+
+.logo-navbar {
+  margin-top: 10px;
+}
+
+.nav-name {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+
+.nav-name:hover {
+  color: #772ce8;
+}
+
+.title-page {
+  font-weight: 700;
+  color: #18181b;
+}
+
+.card {
+  transition: 0.1s;
+  -webkit-transition: all 0.5s;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card-image {
+  transition: 0.35s;
+  object-fit: contain;
+  height: 100px;
+}
+
+.card-image:hover {
+  transition: 0.35s;
+  cursor: pointer;
+}
+
+.card:hover {
+  z-index: 1;
+  box-shadow: 0 12px 20px #772ce880;
+  border: none;
+  background-color: transparent;
+  -webkit-transform: translate(0, -0.5em);
+}
+
+.card-name {
+  font-weight: 600;
+  word-wrap: break-word;
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  color: #18181b;
+  text-transform: capitalize;
+}
+
+.detail-name {
+  font-weight: 700;
+  color: #18181b;
+  text-transform: capitalize;
+}
+
+.detail-types {
+  color: #fff;
+}
+
+.type {
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: 50px;
+  padding: 2px 7px;
+  margin-right: 5px;
+}
+
+.catch-btn {
+  width: 100%;
+  padding: 10px 100px;
+  background-color: #772ce8;
+  border: none;
+  border-radius: 0 0 25px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: #efeff1;
+}
+
+.catch-btn:hover {
+  background-color: rgba(119, 44, 232, 0.8);
+}
+
+.owned-pokemon {
+  font-size: 16px;
+  color: #18181b;
+}
+
+.circle {
+  position: absolute;
+  right: 25px;
+  border-radius: 50px;
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+}
+
+.delete-icon {
+  background-color: transparent;
+  font-size: 25px;
+  color: #18181b;
+}
+
+.delete-icon:hover {
+  color: #de0611;
+  cursor: pointer;
+}
